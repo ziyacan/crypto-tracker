@@ -1,0 +1,40 @@
+{
+  "name": "forex-case",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.0",
+    "@primeuix/themes": "^1.1.1",
+    "@tailwindcss/postcss": "^4.1.8",
+    "dotenv": "^16.5.0",
+    "finnhub": "^1.2.19",
+    "pinia": "^2.3.1",
+    "primeflex": "^4.0.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.53.1",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.3.0",
+    "websocket-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}

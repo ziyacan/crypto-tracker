@@ -1,0 +1,11 @@
+@layer reset, primevue;
+
+@layer reset {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+}
+
+.p-sidebar {
+  @apply border-0 w-full;
+}
