@@ -78,4 +78,4 @@ crypto-tracker/
 - Optimum production build çıktısı
 
 ## Demo
-[Canlı Demo] :
+[Canlı Demo] : (https://crypto-tracker-ten-inky.vercel.app/tracker)
