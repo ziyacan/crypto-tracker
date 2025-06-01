@@ -24,4 +24,15 @@ export interface CryptoPair {
 
 export interface BuyVolume {
   [key: string]: number
+}
+
+export interface WebSocketMessage {
+  e: string // Event type
+  E: number // Event time
+  s: string // Symbol
+  p: string // Price change
+  P: string // Price change percent
+  v: string // Volume
+  q: string // Quote volume
+  c: string // Current price
 } 
